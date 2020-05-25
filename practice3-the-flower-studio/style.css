@@ -1,0 +1,246 @@
+*{
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    color: #61c9b0;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+header{
+   padding-left: 100px;
+   padding-top: 5px;
+}
+
+#logo{
+position: relative;
+top: 10px;
+}
+
+.right-items{
+position: relative;
+left: 30%;
+}
+
+header input{
+    border-radius: 500px;
+    padding: 5px ;
+    margin: 20px;
+    text-align: center;
+    color: #cccccc;
+    border: 2px solid #cccccc;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+#cart{
+    color: #cccccc;
+    bottom: 10px; 
+}
+#cart:hover{
+    color: black;
+    bottom: 10px; 
+    cursor: pointer;
+}
+
+#cart-icon{
+    color: #61c9b0;
+    font-size: 30px;
+    bottom: 10px;
+}
+
+#cart-icon:hover{
+    color: black; 
+    cursor: pointer;
+}
+
+header input:hover{
+    background-color: #84d6c5;
+    border-color: #84d6c5;
+    color: #f7fcfb;
+    cursor: pointer;
+
+}
+
+nav{
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    padding-left: 170px; 
+}
+
+nav ul li{
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #9f9f9f;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+nav ul li a button{
+    background-color: #84d6c5;
+    border: none;
+    color: #f7fcfb;
+    padding: 6px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.details{
+    width: 550px;
+    display: inline-block;
+    margin: 30px;
+}
+
+#item-details{
+    width: 350px;
+}
+
+h1,h3{
+    color: #555555;
+    font-size: 30px;
+}
+
+p{
+    color: #777777;
+}
+
+.items-available-btn{
+    background-color: #f9f9f9;
+    color: #666666;
+    text-align: center;
+    font-size: larger;
+    height: 40px;
+    border-color: #ddd;
+    margin-bottom: 10px;
+}
+
+#item-details input{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #ffffff;
+    color: #4e4e4e;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#items-details h1,p{
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+#add-to-cart-btn{
+    background-color: #d26e4b;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    border: none;
+    padding: 12px 25px 12px 25px;
+    margin-left: 10px;
+}
+
+#add-to-cart-btn:hover{
+    background-color: #a8583c;
+    cursor: pointer;
+}
+
+#wishlist{
+    font-size: large;
+    border-bottom: 1px solid #eeeeee;
+    color: #61c9b0;
+}
+
+#wishlist:hover{
+    color: #4e4e4e;
+    cursor: pointer;
+} 
+
+#facebook{
+    font-size: xx-large;
+    color: #39589d;
+}
+
+#twitter{
+    font-size: xx-large;
+    color: #2478ba;
+}
+
+#email{
+    font-size: xx-large;
+}
+
+#pinterest{
+    font-size: xx-large;
+    color: #cc3b27;
+}
+
+#google-plus{
+    font-size: xx-large;
+    color: #dd4e31;
+}
+
+#linkedin{
+    font-size: xx-large;
+    color: #1f73b7;
+}
+
+#faqs{
+    border-top: 1px solid #eeeeee;
+    padding: 0px 15px;
+    margin: 0px 14px;
+}
+
+#faqs h4{
+    display: inline;
+    color: #9f9f9f;
+}
+
+#faqs h4:hover{
+    border-top: 3px solid #61c9b0;;
+    color: black;
+    cursor: pointer;
+}
+
+#faqs h2{
+    color: #0000ff;;
+}
+
+#related-products{
+    border-top: 1px solid #eeeeee;
+    padding: 0px 15px;
+    margin: 0px 14px;
+    border-bottom: 3px solid #656565;
+}
+
+#related-products figure{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+#related-products figure a{
+    font-size: larger;
+}
+
+
+
