@@ -14,24 +14,24 @@ a:hover{
 }
 
 header{
-   padding-left: 100px;
-   padding-top: 5px;
+   padding-top: 10px; 
+   display: flex;
+   justify-content: space-between;
 }
 
-#logo{
-position: relative;
-top: 10px;
+header div{
+    display: flex;
+    align-items: center;
 }
 
 .right-items{
-position: relative;
-left: 30%;
+    margin: auto 3px;
 }
 
 header input{
     border-radius: 500px;
-    padding: 5px ;
-    margin: 20px;
+    padding: 5px;
+    margin: auto 20px;
     text-align: center;
     color: #cccccc;
     border: 2px solid #cccccc;
