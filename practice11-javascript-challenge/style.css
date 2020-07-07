@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to right, rgb(14, 54, 65), rgb(34, 33, 6));
+    font-family: 'Permanent Marker', cursive;
+    color: wheat;
+}
+
+img{
+    display: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+section div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+}
+
+input, button{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Merienda One', cursive;  
+    border-radius: 25px;
+}
+
+input{
+    margin: 0 0 20px 0;
+    height: 40px;
+    width: 100%;
+}
+
+button{
+  width: 40%;
+  padding: 20px;
+  background-color: wheat;
+  border: none;
+  color: rgb(14, 54, 65);
+}
