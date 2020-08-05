@@ -59,7 +59,7 @@ function createTodoList() {
 
     // append the table into the section
     document.getElementById("to-do-list-table").appendChild(table);
-    
+    // visible the to-do list heading
     document.getElementById("heading").style.display="block";
  
 }
