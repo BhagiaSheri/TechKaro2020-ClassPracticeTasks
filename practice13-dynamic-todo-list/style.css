@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("https://designshack.net/wp-content/uploads/best-poly-backgrounds.png");
+    background-image: url("background-image.png");
 }
 
 #to-do-list-table, #to-do-task{
@@ -50,7 +50,7 @@ th, td {
     background-color: #5f194d;
 }
 
-/*  */
+/* media queries for mobile device */
 @media (max-width: 480px){
     #row1{
         display: none;
