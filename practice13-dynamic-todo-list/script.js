@@ -61,6 +61,11 @@ function createTodoList() {
         document.getElementById("to-do-list-table").appendChild(table);
         // visible the to-do list heading
         document.getElementById("heading").style.display = "block";
+
+        // after adding task, set value of input feilds to null
+        document.getElementById("task-name").value = "";
+        document.getElementById("task-date").value = "";
+        document.getElementById("task-time").value = "";
     }
     else {
         alert("Enter the Task Title to add it in to-do List!");
